@@ -1,0 +1,35 @@
+{
+  "name": "anyandgo-cli",
+  "version": "1.0.0",
+  "description": "Anyandgo MEAN Framework Client Utility Tool",
+  "main": "index.js",
+  "homepage": "http://anyandgo.io/",
+  "preferGlobal": true,
+  "bin": {
+    "anyandgo": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cortezcristian/anyandgo-cli.git"
+  },
+  "keywords": [
+    "anyandgo",
+    "start",
+    "anyandgo-cli",
+    "mean",
+    "framework"
+  ],
+  "author": "Cristian Cortez <cortez.cristian@gmail.com> (http://cortezcristian.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cortezcristian/anyandgo-cli/issues"
+  },
+  "dependencies": {
+    "commander": "^2.8.1",
+    "github-download": "^0.4.0",
+    "shelljs": "^0.5.3"
+  }
+}
